@@ -1,0 +1,12 @@
+.courseexplore_container{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* border: 3px solid blue; */
+    margin-top:10px;
+    margin-bottom:100px;
+    width:75%;
+    gap:10px;
+    justify-content:space-around;
+    
+}

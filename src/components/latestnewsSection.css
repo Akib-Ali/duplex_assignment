@@ -1,0 +1,13 @@
+.latestnews_container{
+    display: flex;
+    /* gap:30px; */
+    justify-content: space-between;
+    /* border:2px solid blue; */
+    padding:30px
+}
+
+.latestnews_container img{
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+}

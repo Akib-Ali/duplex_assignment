@@ -1,0 +1,11 @@
+.herocontainer{
+
+    display: flex;
+    /* border:2px solid red; */
+    /* background: url("https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2017/02/28/Pictures/globe_33213a4e-fdba-11e6-abb0-ce03674c2ba4.JPG"); */
+    background: url("https://www.sparkadmissions.com/wp-content/uploads/2020/09/girl-high-school-grad-in-cap-and-gown-t.jpg");
+    height: 900px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
