@@ -9,9 +9,9 @@ export const CourseExplore=()=>{
     let  degree=[ "BBA", "B.TECH", "M.TECH", "BCA", "MCA" ,"Bs in Statics","Ms in Statics"]
 
     return(
-        <div style={{ marginTop:"30px",width:"90%", marginLeft:"30px"}}>
+        <div style={{ marginTop:"30px",width:"90%", marginLeft:"30px", border:"2px solid red"}}>
              
-         <div  style={{ display:"flex" , width:"75%" ,justifyContent:"space-between" }}>
+         <div  style={{ display:"flex" , width:"75%" ,justifyContent:"space-between" ,marginLeft:"35px" }}>
          <div>
          <h1 style={{fontSize:"25px", fontWeight:"600"}}>Top courses  to explore</h1>
          <h1>Choose the best future to yourself</h1>
@@ -23,7 +23,7 @@ export const CourseExplore=()=>{
 
         <div className="courseexplore_container">
 
-           <div style={{ display:"flex", height:"100px", width:"250px", border:"1px solid grey" , borderRadius:"5px" , backgroundColor:"lightgreen"}}> 
+           <div style={{ display:"flex", height:"100px", width:"250px", border:"1px solid grey" , borderRadius:"5px" , backgroundColor:"lightgreen" }} > 
                 <h1 style={{padding:"20px"}}>MBA</h1>
                 <Spacer/>
                 <div style={{padding:"20px"}}>  <ChevronRightIcon color={"white"}/></div>

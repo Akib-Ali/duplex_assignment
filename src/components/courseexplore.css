@@ -2,7 +2,8 @@
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    /* border: 3px solid blue; */
+    /* border: 3px solid blue;  */
+    margin-left:50px;
     margin-top:10px;
     margin-bottom:100px;
     width:75%;
