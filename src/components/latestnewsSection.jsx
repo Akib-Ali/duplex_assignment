@@ -39,7 +39,7 @@ export const LatestNewsSection=()=>{
 
             return(
 
-                <div style={{height:"400px", width:"450px"}}>
+                <div style={{height:"400px", width:"380px" }}>
                   <img src={elem.studentspic}/>
                   <h1 style={{fontSize:"23px", fontWeight:"600"}}>{elem.detailinfo}</h1>
                   <div style={{display:"flex" , justifyContent:"space-between"}}> 

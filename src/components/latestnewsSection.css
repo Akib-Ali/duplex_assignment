@@ -2,12 +2,13 @@
     display: flex;
     /* gap:30px; */
     justify-content: space-between;
-    /* border:2px solid blue; */
-    padding:30px
+    /* border:2px solid blue;  */
+    padding:5px
 }
 
 .latestnews_container img{
     height: 300px;
-    width: 500px;
+    width: 450px;
     border-radius: 10px;
+    
 }

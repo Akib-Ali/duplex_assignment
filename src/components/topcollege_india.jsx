@@ -26,9 +26,9 @@ export const TopCollegeCard=()=>{
 
 
  return (
-  <div style={{widht:"90%", }}>
+  <div style={{ width:"90%",  marginLeft:"30px"}}>
 
-  <div  style={{display:"flex" , width:"70%" ,justifyContent:"space-between" , marginLeft:"30px"}}>
+  <div  style={{display:"flex" , width:"70%" ,justifyContent:"space-between" , marginLeft:"30px", }}>
     <h1 style={{fontSize:"25px", fontWeight:"600"}}>Top Colleges of India</h1>
    <h1 style={{fontSize:"21px", fontWeight:"600"}}>View All</h1>
 </div>

@@ -1,3 +1,4 @@
+import "./articles.css"
 export const Articles=()=>{
 
     
@@ -35,12 +36,12 @@ export const Articles=()=>{
          
          </div>
 
-         <div className="latestnews_container">
+         <div className="arcticles_container">
          {studentdetail.map((elem,index)=>{
 
             return(
                 //here
-                <div style={{height:"400px", width:"450px"}}>
+                <div className="article_card">
                   <img src={elem.studentspic}/>
                   <h1 style={{fontSize:"23px", fontWeight:"600"}}>{elem.detailinfo}</h1>
                   <div style={{display:"flex" , justifyContent:"space-between"}}> 
